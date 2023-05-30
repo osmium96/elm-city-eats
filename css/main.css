@@ -53,7 +53,7 @@ ul[type="small_font"]
 
 p[type="main"]{width: 100%; max-width: 412px}
 
-p[type="caption"]{margin-left: 0px; color: rgba(47,128,237,1)}
+p[type="caption"]{margin-left: 0px;  max-width: 412px; color: rgba(47,128,237,1)}
 
 p[type="photo"]{width: 100%; max-width: 1200px}
 
