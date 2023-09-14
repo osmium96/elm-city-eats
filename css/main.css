@@ -57,10 +57,12 @@ p[type="caption"]{margin-left: 0px;  max-width: 412px; color: rgba(47,128,237,1)
 
 p[type="photo"]{width: 100%; max-width: 1200px}
 
-a {color: rgba(47,128,237,1)}
+a {color: black
+/*  rgba(47,128,237,1)
+*/}
 
 
-img {width: 100%;max-width: 1200px;display:block}
+img {width: 100%;max-width: 400px;display:block}
 
 /*article and aside viewport settings*/
 
@@ -231,13 +233,13 @@ img {width: 100%;max-width: 1200px;display:block}
 
 .name {color: rgba(47,128,237,1); font-weight: 700}
 
-
-
-
-/*things to experiment with from the old version*/
-
-/*h1 {
-  grid-column: 1 / 2;
-  grid-row: 1;
+.photo-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-*/
+
+.photo-feed img {
+    max-width: 300px;
+    margin: 10px;
+}
